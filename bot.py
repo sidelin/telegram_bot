@@ -10,8 +10,8 @@ from aiogram.types import Message
 from aiogram.utils.markdown import hbold
 from dotenv import load_dotenv
 
-async def start_bot(bot: Bot):
-    await bot.send_message(456618518, f"Бот запущен!")
+# async def start_bot(bot: Bot):
+#     await bot.send_message(456618518, f"Бот запущен!")
 
 async def stop_bot(bot: Bot):
     await bot.send_message(456618518, f"Бот остановлен!")
